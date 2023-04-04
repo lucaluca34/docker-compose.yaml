@@ -6,7 +6,7 @@ services:
     image: mariadb
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: 030819072
       
   wordpress:
     depends_on:
